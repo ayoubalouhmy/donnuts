@@ -164,18 +164,43 @@ span{
     color: rgb(255, 255, 255);
     border: 1.5px solid white;
     
+    
    
 }
 
-.txt .btt:hover{
-
-        background-color: transparent;
-        color: rgb(255, 255, 255);
-        border-color: rgb(255, 255, 255);
-   
- }
 
 
+.bttn{
+    background-color: black;
+    border-radius: 100px;
+    padding: 5px 20px;
+    transition: all 0.3s ease;
+    color: rgb(255, 255, 255);
+    border: 1.5px solid white;
+    margin-left: 30px;
+    
+    
+}
+
+.btttn{
+    background-color: black;
+    border-radius: 100px;
+    padding: 5px 20px;
+    transition: all 0.3s ease;
+    color: rgb(255, 255, 255);
+    border: 1.5px solid white;
+    line-height: 2;
+
+
+}
+
+ .bttn:hover ,.btttn:hover{
+
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+
+}
 
  /* box */
 
@@ -1066,7 +1091,7 @@ padding-top: 20px;
  .map{
 
     margin-top: 65px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     
 
 
@@ -1466,8 +1491,119 @@ margin-right: 15px;
     width: 90%;
 }
 
+.ccc img{
+    filter: drop-shadow(2px 3px 5px black );
+}
+
+/* foot strt */
+
+.flex2000{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.links,.fotter-contact{
+
+    color: rgb(0, 0, 0);
+    width: 23%;
+    padding-top: 20px;
+  
+
+}
+
+.About-us{
+
+color: rgb(0, 0, 0);
+width: 23%;
+padding-top: 20px;
+
+
+
+}
+
+.links h2,.fotter-contact h2{
+
+    padding-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.About-us h2{
+
+    padding-bottom: 20px;
+    font-weight: bold;
+    
+
+}
+
+.links a,.fotter-contact a{
+    
+    text-align: center;
+    display: block;
+    transition: 0.5s ease;
+    text-decoration: none;
+    color: black;
+}
+
+.about-social{
+    margin-top: 13px;
+    gap: 10px;
+    display: flex;
+
+}
+
+.about-social a{
+
+    padding: 4px 5px;
+    background-color: black;
+    font-size: 20px;
+    color: white ;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    border: 1.5px solid transparent;
+}
+
+.about-social a:hover{
+
+    background: none;
+    color: black;
+    border: 1.5px solid;
+    
+
+}
+
+.links a:hover,.fotter-contact a:hover{
+
+    color: #cb9048;
+
+
+}
+
+.copy-right{
+
+    text-align: center;
+   padding-bottom: 25px;
+  
+}
+
+
 
 @media ( max-width:508px   ) {
+
+.nav-item{
+
+    padding: 5px 0 15px 0;
+    text-align: center;
+}
+
+.navbar-nav{
+
+    margin-top: 10px;
+}
 
 .iytjm3klxi {
 
@@ -1483,10 +1619,102 @@ margin-right: 15px;
 .juice-item img ,.menu-item img{
 
     margin: 0 30px;
-
-
-    
+  
 }
+
+.about-social  {
+
+    display: flex;
+    justify-content: center;
+
+}
+.about-social a {
+
+    font-size: 13px;
+    margin: 0 auto;
+}
+
+.About-us {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    text-align: center;
+
+}
+
+.links ,.fotter-contact{
+    width: 100%;
+}
+
+}
+
+.form{
+
+    width: 100%;
+    margin-top: 5.75rem;
+
+} 
+
+.user{
+
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 70px;
+    
+    
+
+
+}  
+.user input{
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1.5px solid rgb(232, 232, 114);
+   width: 48%;
+
+} 
+
+.textarea{
+
+    margin-bottom: 70px;
+
+}
+
+.textarea input{
+
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1.5px solid rgb(232, 232, 114);
+    width: 100%;
+    margin-bottom: 70px;
+
+}
+
+.textarea textarea{
+
+    width: 100%;
+    resize: none;
+    border: none;
+    background: none;
+    border-bottom: 1.5px solid rgb(237, 237, 149);
+    height: 5vh;
+    outline: none;
+
+}
+
+.buton-form button{
+
+
+    width: 100%;
+    border: none;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.buton-form button:hover{
+
+    background-color: rgb(232, 232, 114);
 
 }
 
